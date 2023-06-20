@@ -1,0 +1,36 @@
+{
+  "name": "connecteev/pixabay-php-api",
+  "type": "library",
+  "description": "PHP HTTP client library to access Pixabay's API for searching and retrieving public-domain images and videos.",
+  "keywords": ["Pixabay", "http", "rest", "web service", "curl", "client", "HTTP client"],
+  "homepage": "https://pixabay.com/api/docs/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kunal Punjabi",
+      "email": "kunalspunjabi@gmail.com"
+    },
+    {
+      "name": "Philipp Tkachev",
+      "email": "philipp@zoonman.com",
+      "homepage": "https://www.zoonman.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0|^8.0",
+    "guzzlehttp/guzzle": "^7.7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8|^5.5|^6.5|^10.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pixabay\\": "src/Pixabay/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pixabay\\Tests\\": "tests/"
+    }
+  }
+}
