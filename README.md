@@ -2,7 +2,9 @@
 
 This is an unofficial PHP package / wrapper for the [Pixabay RESTful API](http://pixabay.com/api/docs/) for searching and retrieving Pixabay royalty-free, public-domain images. 
 
-[![Pixabay](https://pixabay.com/static/img/logo.svg)](http://pixabay.com/)
+[ ![Pixabay](https://github.com/connecteev/pixabay-api-php/assets/64816/77ee98e3-1087-43d8-a339-ff481ebfa8b6) ](http://pixabay.com/)
+
+
 
 ### Installation
 
