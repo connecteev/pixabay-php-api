@@ -3,15 +3,15 @@
  * pixabay-php-api
  * PixabayClient API
  *
- * PHP Version 5
+ * PHP Version >7.x | 8.x
  *
  * @category Production
  * @package  Default
- * @author   Philipp Tkachev <zoonman@gmail.com>
+ * @author   Kunal Punjabi <kunalspunjabi@gmail.com>
  * @date     12/14/14 9:18 AM
- * @license  https://www.zoonman.com/projects/pixabay/license.txt MIT
+ * @license  MIT
  * @version  GIT: 1.0
- * @link     https://www.zoonman.com/projects/pixabay/
+ * @link     https://github.com/connecteev/pixabay-php-api
  */
 
 namespace Pixabay;
@@ -20,7 +20,7 @@ use GuzzleHttp\Client;
 
 /**
  * Class PixabayClient
- * @package Pixabay\PixabayClient
+ * @package PixabayClient
  */
 class PixabayClient {
     /**
@@ -96,7 +96,6 @@ class PixabayClient {
             }
         }
     }
-
 
     /**
      * Get Data from Pixabay API

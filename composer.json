@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pixabay\\": "src/Pixabay/"
+      "Pixabay\\": "src/"
     }
   },
   "autoload-dev": {
