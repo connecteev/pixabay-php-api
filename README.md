@@ -61,8 +61,8 @@ $results = $pixabayClient
 		'min_width' => '0', // Minimum image width. Default: "0"
 		'min_height' => '0', // Minimum image height. Default: "0"
 		'colors' => 'grayscale,transparent', // Filter images by color properties. A comma separated list of values may be used to select multiple properties. Accepted values: "grayscale", "transparent", "red", "orange", "yellow", "green", "turquoise", "blue", "lilac", "pink", "white", "gray", "black", "brown
-		'editors_choice' // Select images that have received an Editor's Choice award. Accepted values: "true", "false". Default: "false"
-		'safesearch' => // A flag indicating that only images suitable for all ages should be returned. Accepted values: "true", "false". Default: "false"
+		'editors_choice' => "false", // Select images that have received an Editor's Choice award. Accepted values: "true", "false". Default: "false"
+		'safesearch' => "true", // A flag indicating that only images suitable for all ages should be returned. Accepted values: "true", "false". Default: "false"
 		'order' => 'popular', // How the results should be ordered. Accepted values: "popular", "latest". Default: "popular"
 		'page' => 1, // Returned search results are paginated. Use this parameter to select the page number. Default: 1
 		'per_page' => 200, // Determine the number of results per page. Accepted values: 3 - 200. Default: 20
@@ -77,8 +77,8 @@ $results = $pixabayClient
 		'category' => '', // Filter results by category. Accepted values: backgrounds, fashion, nature, science, education, feelings, health, people, religion, places, animals, industry, computer, food, sports, transportation, travel, buildings, business, music
 		'min_width' => '0', // Minimum video width. Default: "0"
 		'min_height' => '0', // Minimum video height. Default: "0"
-		'editors_choice' // Select videos that have received an Editor's Choice award. Accepted values: "true", "false". Default: "false"
-		'safesearch' => // A flag indicating that only videos suitable for all ages should be returned. Accepted values: "true", "false". Default: "false"
+		'editors_choice' => "false", // Select videos that have received an Editor's Choice award. Accepted values: "true", "false". Default: "false"
+		'safesearch' => "true", // A flag indicating that only videos suitable for all ages should be returned. Accepted values: "true", "false". Default: "false"
 		'order' => 'popular', // How the results should be ordered. Accepted values: "popular", "latest". Default: "popular"
 		'page' => 1, // Returned search results are paginated. Use this parameter to select the page number. Default: 1
 		'per_page' => 200, // Determine the number of results per page. Accepted values: 3 - 200. Default: 20
